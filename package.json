@@ -1,0 +1,55 @@
+{
+    "name": "react-component-to-pdf",
+    "version": "1.0.0",
+    "description": "Create PDF documents from React Components",
+    "keywords": [
+        "pdf",
+        "react",
+        "div",
+        "export",
+        "convert"
+    ],
+    "main": "dist/index.js",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "start": "rollup -c -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/batuhanbalci/react-component-to-pdf.git"
+    },
+    "author": "Batuhan Balcı",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/batuhanbalci/react-component-to-pdf/issues"
+    },
+    "homepage": "https://github.com/batuhanbalci/react-component-to-pdf#readme",
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "html2canvas": "1.4.0",
+        "jspdf": "^2.5.0"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-runtime": "^6.26.0",
+        "@babel/preset-env": "^7.16.8",
+        "@types/prop-types": "^15.7.4",
+        "@types/react": "^16.14.0",
+        "node-sass": "^7.0.1",
+        "prop-types": "^15.8.1",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "rollup": "^1.29.0",
+        "rollup-plugin-sass": "^1.2.2",
+        "rollup-plugin-typescript2": "^0.25.3",
+        "typescript": "^2.8.3"
+    },
+    "peerDependencies": {
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
+    }
+}
